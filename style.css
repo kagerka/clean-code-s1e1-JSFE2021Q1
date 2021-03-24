@@ -18,7 +18,8 @@ body {
 }
 
 @media (max-width:768px) {
-  .aaa { text-align: center;
+  .aaa {
+    text-align: center;
   }
 }
 .centered-main-page-element {
@@ -100,7 +101,6 @@ li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
