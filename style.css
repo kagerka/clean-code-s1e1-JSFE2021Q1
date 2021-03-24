@@ -20,7 +20,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header {
     text-align: center;
@@ -45,16 +45,16 @@ body {
 }
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li, .heading {
-  list-style:none;
+  list-style: none;
 }
 
-input,.btn{
-  outline:none;
+input, .btn {
+  outline: none;
 }
 
 .btn {
@@ -170,14 +170,14 @@ li > .btn.delete:hover {
 /* Edit Task */
 
 ul li input[type="text"] {
-  display:none
+  display: none
 }
 
 ul .edit-mode input[type="text"] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 ul .edit-mode label {
-  display:none;
+  display: none;
 }
